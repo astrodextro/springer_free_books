@@ -1,0 +1,49 @@
+{
+  "name": "springer_free_books",
+  "version": "1.0.0",
+  "description": "Script to download all Springer free books",
+  "main": "main.js",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Springer",
+    "Covid"
+  ],
+  "author": "Felix Jimoh",
+  "license": "ISC",
+  "dependencies": {
+    "@types/clear": "^0.1.0",
+    "@types/cli-progress": "^3.7.0",
+    "@types/progress": "^2.0.3",
+    "@types/request": "^2.48.5",
+    "apache-arrow": "^0.17.0",
+    "axios": "^0.19.2",
+    "babel-runtime": "^6.26.0",
+    "chalk": "^4.0.0",
+    "clear": "^0.1.0",
+    "cli-progress": "^3.8.2",
+    "core-js": "^3.6.5",
+    "inquirer": "^7.1.0",
+    "ora": "^4.0.4",
+    "pandas-js": "^0.2.4",
+    "progress": "^2.0.3",
+    "request": "^2.88.2",
+    "xlsx": "^0.16.1",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/chalk": "^2.2.0",
+    "@types/core-js": "^2.5.3",
+    "@types/inquirer": "^6.5.0",
+    "@types/mocha": "^7.0.2",
+    "@types/ora": "^3.2.0",
+    "@types/yargs": "^15.0.5",
+    "chai": "^4.2.0",
+    "mocha": "^7.2.0",
+    "nyc": "^15.0.1"
+  }
+}
